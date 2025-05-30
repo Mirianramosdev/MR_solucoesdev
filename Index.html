@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MR Desenvolvedora</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    /* (mesmo CSS do site anterior, para manter o estilo) */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      background-color: #0d0d0d;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 1px solid #bfa76f;
+    }
+    .logo {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #bfa76f;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
+    }
+    .hero h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    h2 {
+      color: #bfa76f;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background-color: #1c1c1c;
+      border: 1px solid #bfa76f;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      flex: 1 1 150px;
+      color: #fff;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .projeto {
+      background-color: #141414;
+      border-left: 5px solid #bfa76f;
+      padding: 20px;
+      margin: 0 auto 40px auto;
+      max-width: 500px;
+      text-align: left;
+      border-radius: 8px;
+      color: #fff;
+    }
+    .botao {
+      display: inline-block;
+      margin: 10px;
+      background-color: #bfa76f;
+      color: #000;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: 0.3s;
+      cursor: pointer;
+      border: none;
+    }
+    .botao:hover {
+      background-color: #d9b87c;
+    }
+    .botoes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.postimg.cc/6565Kry7/Logomarca-para-MIRIAN-RAMOS-tema-de-programa-o-preto-e-dourado.png" alt="MR Desenvolvedora" class="logo" />
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+      <a href="orcamento.html">Orçamento</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transformo ideias em sites funcionais, bonitos e inteligentes.</h2>
+    <a href="orcamento.html" class="botao">Solicitar orçamento</a>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>Quem Sou</h2>
+    <p>Sou a Mirian, desenvolvedora web apaixonada por tecnologia e design. Crio sites com foco em funcionalidade, estilo e acessibilidade. Se você quer um site bonito e que realmente funcione, fale comigo.</p>
+  </section>
+
+  <section id="servicos" class="section">
+    <h2>O que eu faço</h2>
+    <div class="cards">
+      <div class="card">Sites profissionais</div>
+      <div class="card">Páginas de vendas</div>
+      <div class="card">Lojas virtuais</div>
+      <div class="card">Sites com IA</div>
+      <div class="card">Landing pages</div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <h2>Portfólio</h2>
+    <div class="projeto">
+      <h3>RAISSA NAIL DESIGNER</h3>
+      <p>Site sofisticado, funcional e moderno para nail designer com agendamento e galeria integrada.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Vamos conversar?</h2>
+    <p>Entre em contato direto comigo:</p>
+    <div class="botoes">
+      <a href="https://wa.me/5579998628286" class="botao" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://www.instagram.com/mirianramospessoal" class="botao" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 MR Desenvolvedora — Transformando ideias em Realidade.</p>
+  </footer>
+
+</body>
+</html>
